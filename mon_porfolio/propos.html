@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>propos</title>
+    <link rel="stylesheet" href="propos.css">
+</head>
+<body>
+    
+       <nav>
+        <h1>Portfolio</h1>
+            
+            <ul class="icone">
+                <li class="accueil"><a href="index.html">Accueil</a></li>
+                <li class="propos"><a href="propos.html">propos</a></li>
+                <li class="Projets"><a href="projet.html">Projets</a></li>
+                <li class="contacts"><a href="contacts.html">contacts</a></li>
+              </ul>
+              
+        
+        <img src="menu.png" alt="photo menu" class="menu">
+        </nav>
+        <div class="contenu">
+            <div class="img">
+                <img src="img.png" alt="photo" class="images" >
+            </div>
+            <div class="left">
+                <h2>A propos de moi</h2>
+                <p>Etudiante à l'école supérieur de commerce et  technologie ,<br>
+                    Développeuse web/mobille et designer UI/UX. J'ai des experiences<br>
+                   qui peuvent transformer la vision de votre entreprise <br>
+                </p>
+              
+              
+            </div>          
+             
+            
+        </div> 
+            <script>
+                const menu =document.querySelector(".menu")
+                const icon =document.querySelector(".icone")
+                
+                menu.addEventListener('click',()=>{
+                icon .classList.toggle('mobile-menu')
+                })
+            </script>       
+    
+</body>
+</html>
